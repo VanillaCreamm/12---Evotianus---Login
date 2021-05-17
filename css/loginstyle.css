@@ -1,0 +1,103 @@
+*{
+	color: #e7db74;
+}
+
+body {
+	padding-top: 200px;
+	justify-content: center;
+	background-image: url('../img/Login-Wall.jpg');
+	background-size: cover;
+	text-align: center;
+}
+
+form{
+	margin: auto;
+	display: inline-block;
+}
+
+h2{
+	margin-bottom: 20px;
+}
+
+i{
+	margin-right: 10px;
+}
+
+.login-form{
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 350px;
+	background-color: #141414;
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register-form{
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 350px;
+	background-color: #141414;
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user{
+	margin-bottom: 30px;
+}
+
+.user input{
+	background-color: transparent;
+	width: 170px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #e7db74;
+}
+
+.password input{
+	background-color: transparent;
+	width: 170px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #e7db74;
+}
+
+.password2 input{
+	background-color: transparent;
+	width: 170px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #e7db74;
+	margin-left: 28px;
+}
+
+.password{
+	margin-bottom: 30px;
+}
+
+.password2{
+	margin-bottom: 50px;
+}
+
+.login-button{
+	margin-bottom: 30px;
+}
+
+.register-button{
+	margin-bottom: 30px;
+}
+
+.register p{
+	color: #474747;
+}
+
+.btn{
+	background-color: #e7db74;
+	border-radius: 15px;
+	transition: 0.3s all;
+}
+
+.btn:hover{
+	background-color: white;
+	color: #e7db74;
+	transition: 0.3s all;
+}
